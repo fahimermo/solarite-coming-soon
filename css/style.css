@@ -76,7 +76,7 @@ h1 {
     line-height: 80px;
     letter-spacing: -0.08em;
     /* color: #161a1b; */
-    color: rgb(252, 249, 233);
+    color: white;
 }
 
 h2 {
@@ -124,6 +124,41 @@ h2 {
 
 .copyright {
     color: rgb(33, 36, 65);
+}
+
+.social:hover {
+    color: wheat !important;
+    transition: ease-in-out 0.2s;
+}
+
+.discord {
+    color: #738ADB !important;
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 5px 5px;
+}
+
+.discord:hover {
+    background-image: linear-gradient(black, black);
+    transition: ease-in-out 0.2s;
+}
+
+.twitter {
+    color: #1da1f2 !important;
+}
+
+.telegram {
+    color: #0088CC !important;
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 5px 10px;
+}
+
+.telegram:hover {
+    background-image: linear-gradient(black, black);
+    transition: ease-in-out 0.2s;
 }
 
 /* =Content Styles
